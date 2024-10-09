@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { analytics } from '../lib/firebase';
 
 const inter = Inter({ subsets: ["latin"] });
 
